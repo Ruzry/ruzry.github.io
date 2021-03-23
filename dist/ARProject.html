@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+<style>
+
+</style>
+
+    <title>Welcome to My AR Project</title>
+</head>
+<body>
+    <header>
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+        <nav class="menu">
+            <div class="menu-branding">
+                <div class="portrait"></div>
+            </div>
+            <ul class="menu-nav">
+                <li class="nav-item">
+                    <a href="../index.html" class="nav-link">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">
+                        About
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="work.html" class="nav-link">
+                        My Work
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                        How to Reach Me
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main id = project-template>
+        <h1 class="lg-heading">
+            AR <span class = "text-secondary">Project</span>
+        </h1>
+        <h2 class="sm-heading">
+            This is a deep dive into my experience with AR
+        </h2>
+
+        <div class="project-details">
+
+            <div class="slide-show">
+                <img class="mySlides" src="img/projects/AR/Positioning Example 1.jpg">
+                <img class="mySlides" src="img/projects/AR/Positioning Example 2.jpg">
+                <img class="mySlides" src="img/projects/AR/Dragonite AR 1 Card.png">
+                <img class="mySlides" src="img/projects/AR/Togetic AR 2 Card.png">
+                <img class="mySlides" src="img/projects/AR/Zapdos AR 3 Card.png">
+                <img class="mySlides" src="img/projects/AR/Scizor AR 4 Card.png">
+                <img class="mySlides" src="img/projects/AR/Meganium AR 5 Card.png">
+                <img class="mySlides" src="img/projects/AR/Lugia AR 6 Card.png">
+
+                <div class="leftArrow" onclick="changeImage(-1)">
+                    <i class="fas fa-angle-left" ></i>
+                </div>
+
+                <div class="rightArrow" onclick="changeImage(1)">
+                    <i class="fas fa-angle-right" ></i>
+                </div>
+ 
+                <div class="choices eight">
+
+                    <div class = "imageChoice1 demo " >
+                        <i class= "fas fa-circle" onclick="selectImage(0)"></i>
+                    </div>
+                    
+                    <div class = "imageChoice2 demo " >
+                        <i class= "fas fa-circle" onclick="selectImage(1)"></i>
+                    </div>
+
+                    <div class = "imageChoice3 demo " >
+                        <i class= "fas fa-circle" onclick="selectImage(2)"></i>
+                    </div>
+
+                    <div class = "imageChoice4 demo " >
+                        <i class= "fas fa-circle" onclick="selectImage(2)"></i>
+                    </div>
+
+                    <div class = "imageChoice5 demo " >
+                        <i class= "fas fa-circle" onclick="selectImage(2)"></i>
+                    </div>
+
+                    <div class = "imageChoice6 demo " >
+                        <i class= "fas fa-circle" onclick="selectImage(2)"></i>
+                    </div>
+
+                    <div class = "imageChoice7 demo " >
+                        <i class= "fas fa-circle" onclick="selectImage(2)"></i>
+                    </div>
+
+                    <div class = "imageChoice8 demo " >
+                        <i class= "fas fa-circle" onclick="selectImage(2)"></i>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="project-description">
+                <h3 class = "text-secondary">Descprition</h3>
+                <p>
+                One of Abertay's selling points is the access to sony development kits for Vita, PS3, PS4 and even PS-VR.
+                With this i got a chance to create a AR based application on the Vita systems.
+                For my application i created a pokemon themed AR positioned and turn based RPG prototype.
+                The idea for this was using the AR system to bring pokemon cards to life, choosing your team (A player card to focus around, and support cards that buff the player)
+                by the cards the camera can see.
+                The RPG function was very basic, a turn based gameplay loop with a few attack options.
+                
+
+                </p>
+
+            </div>
+
+            <div class="project-description-two">
+                
+                <p>
+                    The main feature of my application was in bringing the cards to life and using the positions strategically
+                    in the way the cards positions impacted how support cards help the player.
+                    You can see with the images in the slide show, the support cards all have 2 buffs that are applied dependent on the player cards location.
+                    For example, if the support card 2 (Togetic) is ahead of the player card, it applies a ticking healing buff. If it is behind the player, 
+                    it applies a defensive buff to reduce damage taken.
+                    The artworks used for the cards, were not made by me, they were sourced from google, and were used in a university assessment with no commercial availability.
+
+                </p>
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer id="main-footer">
+        Copyright &copy; 2020
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

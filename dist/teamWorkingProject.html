@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+<style>
+
+</style>
+
+    <title>Welcome to My Team Working Project</title>
+</head>
+<body>
+    <header>
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+        <nav class="menu">
+            <div class="menu-branding">
+                <div class="portrait"></div>
+            </div>
+            <ul class="menu-nav">
+                <li class="nav-item">
+                    <a href="../index.html" class="nav-link">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">
+                        About
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="work.html" class="nav-link">
+                        My Work
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                        How to Reach Me
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main id = project-template>
+        <h1 class="lg-heading">
+            Team Working <span class = "text-secondary">Project</span>
+        </h1>
+        <h2 class="sm-heading">
+            This is a deep dive into the team working module and assessment for university
+        </h2>
+
+        <div class="project-details">
+
+            <div class="slide-show">
+                <img class="mySlides" src="img/projects/TeamWorking/Portal.gif">
+                <img class="mySlides" src="img/projects/TeamWorking/BubbleTrap.gif">
+                <img class="mySlides" src="img/projects/TeamWorking/JellyTot Trap.gif">
+
+                <div class="leftArrow" onclick="changeImage(-1)">
+                    <i class="fas fa-angle-left" ></i>
+                </div>
+
+                <div class="rightArrow" onclick="changeImage(1)">
+                    <i class="fas fa-angle-right" ></i>
+                </div>
+ 
+                <div class="choices three">
+
+                    <div class = "imageChoice1 demo " >
+                        <i class= "fas fa-circle" onclick="selectImage(0)"></i>
+                    </div>
+                    
+                    <div class = "imageChoice2 demo " >
+                        <i class= "fas fa-circle" onclick="selectImage(1)"></i>
+                    </div>
+
+                    <div class = "imageChoice3 demo " >
+                        <i class= "fas fa-circle" onclick="selectImage(2)"></i>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="project-description">
+                <h3 class = "text-secondary">Description</h3>
+                <p>This project is the most highly valued module of this course, after the honours project ofcource.
+                This module allowed me to work as a team with multiple disciplines 
+                (Programming, audio, production, art etc) to create a game for a client 
+                (for us it was HyperLuminal Games in dundee) following a client brief.
+                    
+
+                </p>
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer id="main-footer">
+        Copyright &copy; 2020
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
