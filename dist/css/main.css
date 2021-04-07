@@ -221,10 +221,14 @@ main {
     height: 33vh; }
   .video-project-details .project-description {
     grid-area: projectDescription;
-    font-size: 1.5rem; }
+    font-size: 1.25rem;
+    padding: 0.2rem 1rem;
+    background: rgba(73, 73, 73, 0.5); }
   .video-project-details .project-description-two {
     grid-area: projectDescription2;
-    font-size: 1.5rem; }
+    font-size: 1.25rem;
+    padding: 0.2rem 1rem;
+    background: rgba(73, 73, 73, 0.5); }
 
 .project-details {
   display: grid;
@@ -304,10 +308,14 @@ main {
         grid-area: choice8; }
   .project-details .project-description {
     grid-area: projectDescription;
-    font-size: 1.5rem; }
+    font-size: 1.25rem;
+    padding: 0.2rem 1rem;
+    background: rgba(73, 73, 73, 0.5); }
   .project-details .project-description-two {
     grid-area: projectDescription2;
-    font-size: 1.5rem; }
+    font-size: 1.25rem;
+    padding: 0.2rem 1rem;
+    background: rgba(73, 73, 73, 0.5); }
 
 .btn, .btn-dark, .btn-light {
   display: block;

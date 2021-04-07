@@ -191,12 +191,16 @@ main{
 
     .project-description{
         grid-area: projectDescription;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
+        padding: 0.2rem 1rem;
+        background: rgba(lighten($primary-color, $amount: 2), 0.5);
     }
 
     .project-description-two{
         grid-area: projectDescription2;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
+        padding: 0.2rem 1rem;
+        background: rgba(lighten($primary-color, $amount: 2), 0.5);
     }
 }
 
@@ -348,12 +352,16 @@ main{
 
     .project-description{
         grid-area: projectDescription;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
+        padding: 0.2rem 1rem;
+        background: rgba(lighten($primary-color, $amount: 2), 0.5);
     }
 
     .project-description-two{
         grid-area: projectDescription2;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
+        padding: 0.2rem 1rem;
+        background: rgba(lighten($primary-color, $amount: 2), 0.5);
     }
     
 }
