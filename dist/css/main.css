@@ -103,7 +103,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/background.jpg);
+    background: url(../img/background1.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -178,6 +178,16 @@ main {
     background: #515151;
     padding: 0.5rem;
     border-bottom: #c94eee 5px solid; }
+
+.back-btn {
+  position: absolute;
+  z-index: 3;
+  left: 35px;
+  top: 25px;
+  cursor: pointer; }
+  .back-btn a:hover {
+    color: #c94eee;
+    transition: all 0.5s ease-out; }
 
 .projects {
   display: grid;

@@ -119,6 +119,22 @@ main{
     }
 }
 
+.back-btn{
+    position: absolute;
+    z-index: 3;
+    left: 35px;
+    top: 25px;
+    cursor: pointer;
+
+    a{
+        &:hover{
+         color: $secondary-color;
+         @include easeOut();
+
+        }
+    }
+}
+
 // Work/Projects Page
 .projects{
     display: grid;
@@ -208,6 +224,8 @@ main{
 
 //Project with slides Pages
 .project-details{
+
+
 
     display: grid;
     align-items: center;
